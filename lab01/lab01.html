@@ -1,0 +1,133 @@
+<h1>My site</h1>
+<head>
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }  
+    td, th {
+      border: 2px solid #ffffff;
+      text-align: left;
+      padding: 8px;
+      
+    }
+    th{
+        background-color: #5f5f5f;
+    }
+    tr:nth-child(even) {
+      background-color: #cccccc;
+    }
+    hr.Line {
+        border-top: 5px solid rgb(154, 247, 68);
+    }
+    * {
+    box-sizing: border-box;
+    }
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 1080px;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <hr class="Line">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin id tellus.<br>
+                Nam accumsan tincidunt quam. Cum sociis natoque penatibus et magnis<br>
+                dis parturient montes, nascetur ridiculus mus. Donec sed est ut felis<br>
+                scelerisque semper. phasellus pretium hendrerit risus. Morbi malesuada.<br>
+                Duis porttitor tincidunt neque. Phasellus eget velit a mi aliquam<br>
+                molestie. Vestbulum lacinia viverra nisl. Praesent rutrum varius justo.<br>
+                Mauris feugiat.<br>
+                </p>
+                <h3>Image In Text</h3>
+                <hr class="Line">
+                <img src="img/Apple.png" alt="Apple img" align="left">
+                <p>
+                    Lorem ipsum dolor sit amet,<br>
+                    consectetuer adipiscing elit. Proin id<br>
+                    tellus. Nam accumsan tincidunt quam.<br>
+                    Cum sociis natoque penatibus et magnis<br>
+                    dis parturient montes, nascetur ridiculus<br>
+                    mus. Donec sed est ut felis<br>
+                    scelerisque semper.
+                </p>
+                <h2>Time table</h2>
+                <hr class="Line">
+                <table border="white">
+                    <tr>
+                        <th><br></th>
+                        <th><br></th>
+                        <th><br></th>
+                    </tr>
+                    <tr>
+                        <td background-color: #b4b4b4;><br></td>
+                        <td background-color: #b4b4b4;><br></td>
+                        <td background-color: #b4b4b4;><br></td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="white"><br></td>
+                        <td bgcolor="white"><br></td>
+                        <td bgcolor="white"><br></td>
+                    </tr>
+                </table>
+                <h3>Form Example</h3>
+                <hr class="Line">
+                <form action="/my-handling-form-page" method="post">
+                    <div>
+                        <label for="name" style="size: 16px;"> Your name: &nbsp;</label>
+                        <input type="text" id="name" name="user_name"><br><br>
+                    </div>
+                    <div>
+                        <label for="mail" style="size: 16px;"> Your e-mail:</label>
+                        <input type="email" id="mail" name="user_email"><br><br>
+                    </div>
+                    <div>
+                        <label for="msg">Comments:&nbsp;</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </div>
+                    <div>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="submit" value="Submit">
+                        </p>
+                    </div>
+                </form>
+        </div>
+        <div class="column">
+            <hr>
+            <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Main Sidebar</h4>
+            <hr>
+            <p>
+                This is an example of<br>
+                paragraph in the sidebar<br>
+                followed by an example of<br>
+                sidebar links.<br><br><br>
+                <a href="https://www.google.com/">More free Templates</a><br>
+                <a href="https://www.google.com/">Freelance Web Designer</a><br>
+                <a href="https://www.google.com/">Some Example Links</a><br>
+                <a href="https://www.google.com/">Donec sed est ut felis</a><br><br>
+                This is a form in the sidebar. <br>
+            </p>
+            <form action="/my-handling-form-page" method="post"></form>
+            <input type="text">
+            <input type="submit" value="Search"><br>
+            </form>
+            <p>
+                Images that would be good<br>
+                gor advertsment or a sample<br>
+                gallerty:
+            </p>
+        </div>
+      </div>
+</body>
